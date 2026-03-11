@@ -4,34 +4,34 @@
 
 ### Java Script Basics:
 
-> Array
-> Condition
-> Asynchronous Callback Function
-> Funtions
-> Loop
-> Variable
+> Array,
+> Condition,
+> Asynchronous Callback Function,
+> Funtions,
+> Loop,
+> Variable,
 
 ### Class & Constructor:
 
-> Child class
-> Parant class
-> Constructor
+> Child class,
+> Parant class,
+> Constructor,
 
 ### Problem Solving
 
-> Class and constructor
-> Env Selector
-> Factorial
-> Factorial Recursion
-> Fail Result
-> Fibonacci 
-> Fibonacci Array
-> Find Max Number
-> Json Parse
-> Login Credential
-> Priority Filter
-> Result Checker
-> Test Report
+> Class and constructor,
+> Env Selector,
+> Factorial,
+> Factorial Recursion,
+> Fail Result,
+> Fibonacci,
+> Fibonacci Array,
+> Find Max Number,
+> Json Parse,
+> Login Credential,
+> Priority Filter,
+> Result Checker,
+> Test Report,
 
 ### API Automation Report
 
@@ -39,9 +39,9 @@
 
 ### Tools:
 
-> Postman
-> VS Code
-> Newman
+> Postman,
+> VS Code,
+> Newman,
 
 ### Execution Process:
 ```bash
