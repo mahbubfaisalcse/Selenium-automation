@@ -37,7 +37,8 @@ async function demoform() {
     await driver.sleep(2000);
 
     await driver.findElement(By.xpath("//input[@id='hobbies-checkbox-1']")).click();
-    await subject.sendKeys(Key.TAB);   // move to next section
+    //await subject.sendKeys(Key.TAB);   // move to next section
+    
     await driver.sleep(2000); 
 
     let upload = await driver.findElement(By.id("uploadPicture"));
@@ -61,11 +62,14 @@ async function demoform() {
     await driver.wait(until.elementLocated(By.xpath("//div[text()='Delhi']")), 5000).click();
     
 
-    await driver.findElement(By.id("submit")).click();
-    await driver.sleep(2000); 
+    // await driver.findElement(By.id("submit")).click();
+    // await driver.sleep(2000); 
     await driver.findElement(By.xpath("//button[text()='Submit']")).click();
     await driver.sleep(2000); 
-    await driver.findElement(By.xpath("//button[text()='Close']")).click();   
+
+    const closeBtn = await driver.wait(until.elementLocated(By.id("closeLargeModal")), 5000);
+    await driver.executeScript("arguments[0].scrollIntoView(true); arguments[0].click();", closeBtn);
+    
     await driver.sleep(2000); 
     await driver.quit();
 }
